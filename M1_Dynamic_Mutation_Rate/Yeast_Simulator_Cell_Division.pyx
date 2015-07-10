@@ -191,7 +191,7 @@ def asymmetrical_cell_division(genotypes,cell_groups,PM_fitness_Rate,PM_fitness_
 
 def decide_mutation_rate(mutation_rate,CDT):
     if CDT < 162:
-        return mutation_rate/2
+        return 0.002145
     else:
         return mutation_rate
 
